@@ -1,0 +1,37 @@
+/* Slider.css */
+
+.custom-slider {
+  margin-top:25px;
+  position: relative;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  color: #fff;
+}
+
+.carousel-caption p {
+  margin-bottom: 0;
+}
+
+/* Adjust image size */
+.carousel-item img {
+  object-fit: cover; /* Make images cover the entire container */
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}

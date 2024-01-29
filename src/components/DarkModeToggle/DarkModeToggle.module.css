@@ -1,0 +1,23 @@
+/* DarkModeToggle.module.css */
+
+.container {
+  display: flex;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 15px;
+}
+.icons {
+  font-size: 24px;
+}
+
+/* Light Mode Styles */
+.container.light {
+  color: #fff; /* Dark text color */
+}
+
+/* Dark Mode Styles */
+.container.dark {
+  color: #333; /* Light text color */
+}

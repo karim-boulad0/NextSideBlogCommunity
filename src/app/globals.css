@@ -1,0 +1,52 @@
+:root {
+  --color-primary: #6868cf;
+  --color-secondary: #bbb;
+  --size-border-radius: 5px;
+  /* dashboard global*/
+  /*backGround children dashboard */
+  --color-dark: #222020;
+  --color-light: #f3f3f3;
+  /* backGround navbar and side bar  of dashboard*/
+  --color-dark-layout: #212529;
+  --color-light-layout: #eee;
+  /* border bottom of nav ad right of side bar */
+  --color-border-layout: #a5a1a133;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  max-width: 100vw;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.light {
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  min-height: 100vh;
+  padding: 1px;
+}
+.dark {
+  min-height: 100vh;
+
+  padding: 1px;
+  color: white;
+  background-color: var(--color-dark);
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+

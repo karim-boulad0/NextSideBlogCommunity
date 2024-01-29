@@ -1,0 +1,71 @@
+/* Notifications.css */
+
+.notifications-container {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 20px auto;
+  padding: 0 10px; /* Added padding for better spacing */
+}
+
+.unread-notifications {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.notificationIsBorder{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+} 
+.notification {
+
+  margin-bottom: 10px;
+  width: 100%; /* Ensure notifications take the full width */
+  display: block; /* Make sure it's a block-level element */
+  text-decoration: none; /* Remove default link styling */
+  /* color: #333; Set text color */
+}
+
+.notification-content {
+  padding: 10px;
+}
+
+.notification-type {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.notification-details {
+  display: flex;
+  align-items: center;
+}
+
+.notification-details img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info p {
+  margin: 0;
+}
+
+.user-info span {
+  color: #888;
+  font-size: 12px;
+}
+
+/* Added styles for read and unread notifications */
+.notification-read {
+  background-color: #f0f0f0; /* Light gray for read notifications */
+}
+
+.notification-unread {
+  background-color: #e6f7ff; /* Light blue for unread notifications */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .notifications-container {
+    max-width: 100%; /* Set max-width to 100% for smaller screens */
+  }
+}

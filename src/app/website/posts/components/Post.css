@@ -1,0 +1,23 @@
+.post-card:hover{
+transform: scale(1.01);
+}
+.interect:hover{
+transform: scale(1.1);
+color: var(--color-primary);
+}
+.bar-icon{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bar-icon:hover{
+    transform: scale(1.5);
+    color: var(--color-primary);
+}
+.head-post:hover{
+    transform: scale(1.1);
+cursor: pointer;
+}
+.head-post a{
+    text-decoration: none;
+}

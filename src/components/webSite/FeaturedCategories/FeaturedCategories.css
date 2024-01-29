@@ -1,0 +1,66 @@
+/* FeaturedCategories.css */
+
+.featured-categories-container {
+  max-height: 300px; /* Adjust the max height as needed */
+  overflow-y: auto;
+}
+
+.categories {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px; /* Adjust the gap between categories as needed */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.category-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.category-item div:hover {
+  background-color: var(--color-primary); /* Change this to your primary color variable */
+}
+
+.category-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
+}
+
+.category-item div {
+  padding: 10px;
+  text-align: center;
+  border: solid rgb(128, 121, 121) 2px;
+}
+
+/* Optional: Add a box shadow for a subtle elevation effect on hover */
+.category-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-item {
+  overflow-wrap: break-word;
+}
+
+/* FeaturedCategories.css */
+
+.featured-categories-container {
+  position: relative;
+}
+
+.navigation-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

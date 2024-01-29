@@ -1,0 +1,6 @@
+.top-bar {
+  height: 70px;
+  padding: 0 20px;
+  z-index: 2;
+  border-bottom: solid var(--color-border-layout) 5px;
+}

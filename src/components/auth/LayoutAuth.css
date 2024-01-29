@@ -1,0 +1,121 @@
+/* styles.css */
+
+.container {
+  margin-top: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.btn-outline-custom {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary-custom {
+  color: #fff;
+  background-color: var(--color-primary);
+}
+
+.btn-light-custom {
+  color: var(--color-primary);
+  background-color: #fff;
+}
+
+.btn.active {
+  color: #fff;
+  background-color: var(--color-primary);
+}
+.mainDiv {
+  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+/* YourStyles.css */
+
+/* -------------------- */
+/* -------------------- */
+/* -------------------- */
+/* -------------------- */
+.errMsg {
+  color: red;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login,
+.register {
+  background-image: linear-gradient(
+    110deg,
+    white 0%,
+    white 50%,
+    var(--color-primary)
+  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  height: 600px;
+  margin-top: 25px;
+}
+.login-dark,
+.register-dark {
+  background-image: linear-gradient(
+    110deg,
+    #28213f 0%,
+    #21162b 50%,
+    rgb(70 47 137)
+  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 12px;
+  height: 600px;
+}
+.form-label {
+  cursor: pointer;
+}
+
+.pass-group {
+  position: relative;
+}
+
+.pass-icon {
+  position: absolute;
+  top: 51px;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.button {
+  background-color: var(--color-primary);
+  opacity: 0.8;
+  color: white;
+}
+
+.button:hover {
+  background-color: var(--color-primary);
+  opacity: 0.9;
+  color: white;
+}

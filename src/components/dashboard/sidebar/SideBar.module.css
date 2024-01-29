@@ -1,0 +1,37 @@
+/* SideBar.module.css */
+
+.sideBar {
+  width: 200px;
+  background-color: var(--color-dark); /* Default background color */
+  color: #fff; /* Default text color */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-right: solid var(--color-border-layout) 5px;
+  height: 100vh;
+}
+
+.sideBar a {
+  text-decoration: none;
+  color: inherit;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.sideBar a:hover {
+  background-color: var(--color-primary); /* Hover background color */
+  color: white;
+}
+
+/* Dark Mode Styles */
+.sideDark {
+  background-color: var(--color-light-layout); /* Light background color */
+  color: var(--color-dark);
+}
+
+/* Light Mode Styles */
+.sideLight {
+  background-color: var(--color-dark-layout); /* Dark background color */
+
+  color: white; /* Light text color */
+}
